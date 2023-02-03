@@ -9,7 +9,6 @@ import { Box } from '@mui/material';
 const RootStyle = styled('div')(() => ({
   flexGrow: 1,
   height: '100%',
-  overflow: 'scroll',
 }));
 
 const SimpleBarStyle = styled(SimpleBarReact)(({ theme }) => ({
@@ -23,7 +22,7 @@ const SimpleBarStyle = styled(SimpleBarReact)(({ theme }) => ({
     },
   },
   '& .simplebar-track.simplebar-vertical': {
-    width: 10,
+    width: 6,
   },
   '& .simplebar-track.simplebar-horizontal .simplebar-scrollbar': {
     height: 6,
